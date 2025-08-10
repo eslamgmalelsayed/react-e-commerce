@@ -1,7 +1,10 @@
+import { RouterProvider } from "react-router-dom";
+import routes from "./routes/routes";
+
 function App() {
   return (
     <>
-      <p className="text-center">Click on the Vite</p>
+      <RouterProvider router={routes} />
     </>
   );
 }
