@@ -1,6 +1,6 @@
 import toast from "react-hot-toast";
 import { type AxiosError } from "axios";
-import { AUTH_TOKEN_KEY } from "../constants/api";
+import { AUTH_TOKEN_KEY } from "@/constants/api";
 
 // Error types for better categorization
 export const ErrorType = {

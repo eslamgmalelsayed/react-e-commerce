@@ -1,4 +1,4 @@
-import Cart from "../components/Card";
+import Cart from "@/components/Card";
 
 export default function Home() {
   return (

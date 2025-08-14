@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import Navbar from "../components/Navbar";
-import GlobalSpinner from "../components/GlobalSpinner";
+import Navbar from "@/components/Navbar";
+import GlobalSpinner from "@/components/GlobalSpinner";
 
 const Layout = () => {
   return (

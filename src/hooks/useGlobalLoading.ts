@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { loadingService } from "../services/loading";
+import { loadingService } from "@/services/loading";
 
 export const useGlobalLoading = () => {
   const [isLoading, setIsLoading] = useState(loadingService.isLoading);

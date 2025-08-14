@@ -4,7 +4,7 @@ import {
   API_TIMEOUT,
   DEFAULT_HEADERS,
   AUTH_TOKEN_KEY,
-} from "../constants/api";
+} from "@/constants/api";
 import { loadingService } from "./loading";
 import { errorHandler } from "./errorHandler";
 

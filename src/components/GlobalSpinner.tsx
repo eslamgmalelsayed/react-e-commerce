@@ -1,4 +1,4 @@
-import { useGlobalLoading } from "../hooks/useGlobalLoading";
+import { useGlobalLoading } from "@/hooks/useGlobalLoading";
 
 const GlobalSpinner = () => {
   const isLoading = useGlobalLoading();

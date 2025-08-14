@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import ProductGrid from "../components/ProductGrid";
-import { type Product } from "../components/ProductCard";
+import ProductGrid from "@/components/ProductGrid";
+import { type Product } from "@/components/ProductCard";
 
 // Mock products data
 const mockProducts: Product[] = [
